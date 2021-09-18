@@ -1,0 +1,199 @@
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.h1 {
+  color: white;
+  font-size: 150px;
+  font-weight: 400;
+  font-family: "Pinyon Script", cursive;
+  padding-left: 190px;
+  text-align: left;
+}
+
+.head {
+  height: 430px;
+  background-color: #3b516f;
+  vertical-align: middle;
+  line-height: 430px;
+}
+
+.avatar {
+  position: absolute;
+  right: 190px;
+  top: 120px;
+  width: 390px;
+  height: 540px;
+}
+
+.h2 {
+  font-size: 85px;
+  font-weight: 400;
+  font-family: "Pinyon Script", cursive;
+}
+
+.wrapper {
+  padding-top: 220px;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+.line-red {
+  min-width: 5px;
+  height: 150px;
+  background-color: #681725ba;
+}
+
+.image-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+
+  column-gap: 30px;
+}
+
+.row {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  column-gap: 30px;
+  padding-top: 30px;
+  justify-content: space-between;
+}
+
+.image-small {
+  width: 245px;
+  height: 270px;
+}
+
+.about-me-text {
+  text-align: left;
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.professional-skills {
+  background-color: #d4daef;
+  padding-bottom: 30px;
+}
+
+.professional-skills-text {
+  padding-left: 55px;
+}
+
+.girl-image {
+  width: 415px;
+  height: auto;
+  left: 705px;
+  padding-right: 50px;
+}
+
+.image {
+  width: 415px;
+  height: auto;
+}
+
+.software-proficiency {
+  background-color: #90a6c4;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+
+.h3 {
+  font-size: 23px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.text-software {
+  text-align: left;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 31px;
+}
+.personal-qualities {
+  padding-left: 30px;
+
+  font-weight: 400;
+  width: 100%;
+  background-color: #d4daef;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 30px;
+  text-align: center;
+}
+
+.follow-me {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.follow-me-p {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-family: "Raleway", sans-serif;
+}
+
+.p {
+  font-size: 23px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #3b516f;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image-logo {
+  background-color: #3095e2;
+  border-radius: 50%;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+@media (max-width: 1299px) {
+  .image-block {
+    display: none;
+  }
+  .line-red {
+    height: auto;
+  }
+}
+
+@media (max-width: 1119px) {
+  .h2 {
+    padding-left: 25px;
+
+    font-size: 70px;
+  }
+  .avatar {
+    right: 25px;
+  }
+  .girl-image {
+    width: 250px;
+  }
+  .image {
+    width: 200px;
+  }
+}
